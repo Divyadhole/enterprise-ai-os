@@ -1,0 +1,63 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Enterprise AI Operating System architecture</title>
+  <desc id="desc">Architecture diagram from user interface to FastAPI backend, agent orchestration, tools, memory, evaluation, and observability.</desc>
+  <rect width="1280" height="640" fill="#F5F6F1"/>
+  <text x="64" y="72" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">System Architecture</text>
+  <text x="64" y="106" fill="#52615A" font-family="Inter, Arial, sans-serif" font-size="18">A recruiter-friendly view of the current scaffold and planned production layers.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#506158" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="64" y="176" width="186" height="96" rx="12" fill="#FFFFFF" stroke="#DDE4DA"/>
+    <text x="94" y="218" fill="#18201D" font-size="20" font-weight="800">User</text>
+    <text x="94" y="248" fill="#66736C" font-size="15">Enterprise operator</text>
+
+    <rect x="318" y="160" width="214" height="128" rx="12" fill="#FFFFFF" stroke="#DDE4DA"/>
+    <text x="350" y="203" fill="#18201D" font-size="20" font-weight="800">React UI</text>
+    <text x="350" y="233" fill="#66736C" font-size="15">Agent dashboard</text>
+    <text x="350" y="258" fill="#66736C" font-size="15">Portfolio demo mode</text>
+
+    <rect x="600" y="160" width="214" height="128" rx="12" fill="#FFFFFF" stroke="#DDE4DA"/>
+    <text x="632" y="203" fill="#18201D" font-size="20" font-weight="800">FastAPI</text>
+    <text x="632" y="233" fill="#66736C" font-size="15">Typed endpoints</text>
+    <text x="632" y="258" fill="#66736C" font-size="15">Runs and feedback</text>
+
+    <rect x="882" y="160" width="214" height="128" rx="12" fill="#FFFFFF" stroke="#DDE4DA"/>
+    <text x="914" y="203" fill="#18201D" font-size="20" font-weight="800">Agents</text>
+    <text x="914" y="233" fill="#66736C" font-size="15">Research, Coding, SQL</text>
+    <text x="914" y="258" fill="#66736C" font-size="15">Email, Meeting</text>
+
+    <line x1="250" y1="224" x2="304" y2="224" stroke="#506158" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="532" y1="224" x2="586" y2="224" stroke="#506158" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="814" y1="224" x2="868" y2="224" stroke="#506158" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="262" y="380" width="194" height="106" rx="12" fill="#EEF7F3" stroke="#A8D8C7"/>
+    <text x="292" y="423" fill="#12624F" font-size="19" font-weight="800">Tool Registry</text>
+    <text x="292" y="453" fill="#315F53" font-size="15">Gmail, Slack, GitHub</text>
+
+    <rect x="526" y="380" width="194" height="106" rx="12" fill="#F2F7FF" stroke="#BDD3F3"/>
+    <text x="556" y="423" fill="#275D9C" font-size="19" font-weight="800">Memory</text>
+    <text x="556" y="453" fill="#3D638A" font-size="15">Postgres, Redis, Qdrant</text>
+
+    <rect x="790" y="380" width="194" height="106" rx="12" fill="#FFF8E8" stroke="#F0CC92"/>
+    <text x="820" y="423" fill="#875412" font-size="19" font-weight="800">Evaluation</text>
+    <text x="820" y="453" fill="#765A30" font-size="15">Quality and regression</text>
+
+    <rect x="1054" y="380" width="162" height="106" rx="12" fill="#FFFFFF" stroke="#DDE4DA"/>
+    <text x="1084" y="423" fill="#18201D" font-size="19" font-weight="800">Tracing</text>
+    <text x="1084" y="453" fill="#66736C" font-size="15">Langfuse, OTel</text>
+
+    <line x1="989" y1="288" x2="359" y2="368" stroke="#506158" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="989" y1="288" x2="623" y2="368" stroke="#506158" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="989" y1="288" x2="887" y2="368" stroke="#506158" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="989" y1="288" x2="1135" y2="368" stroke="#506158" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="64" y="544" width="1152" height="46" rx="10" fill="#18201D"/>
+    <text x="94" y="574" fill="#FFFFFF" font-size="16" font-weight="700">Roadmap:</text>
+    <text x="180" y="574" fill="#E8EFEA" font-size="16">LangGraph orchestration · MCP tools · Hybrid RAG · Prompt versioning · LLM evaluation · Cloud deployment</text>
+  </g>
+</svg>

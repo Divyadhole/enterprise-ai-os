@@ -1,0 +1,79 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Enterprise AI Operating System product preview</title>
+  <desc id="desc">A dashboard preview showing agent metrics, agent cards, a run workspace, enterprise tools, and memory cards.</desc>
+  <rect width="1280" height="720" fill="#F5F6F1"/>
+  <rect x="48" y="44" width="1184" height="632" rx="18" fill="#FFFFFF" stroke="#DDE4DA"/>
+  <rect x="48" y="44" width="1184" height="74" rx="18" fill="#18201D"/>
+  <circle cx="91" cy="82" r="10" fill="#F87171"/>
+  <circle cx="122" cy="82" r="10" fill="#FBBF24"/>
+  <circle cx="153" cy="82" r="10" fill="#34D399"/>
+  <text x="190" y="88" fill="#F8FAF7" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Enterprise AI Operating System</text>
+  <rect x="930" y="64" width="120" height="36" rx="18" fill="#EEF7F3"/>
+  <text x="956" y="87" fill="#12624F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Live Demo</text>
+  <rect x="1066" y="64" width="130" height="36" rx="18" fill="#F2F7FF"/>
+  <text x="1090" y="87" fill="#275D9C" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">API Ready</text>
+
+  <text x="78" y="158" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="16">Portfolio Project</text>
+  <text x="78" y="198" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">Enterprise AI Agent Control Plane</text>
+  <text x="78" y="230" fill="#52615A" font-family="Inter, Arial, sans-serif" font-size="17">Multi-agent workflows, enterprise tools, memory, cost tracking, and feedback capture.</text>
+
+  <g>
+    <rect x="78" y="268" width="254" height="106" rx="10" fill="#F7FAF8" stroke="#DDE4DA"/>
+    <circle cx="110" cy="302" r="18" fill="#E6F2EE"/>
+    <text x="100" y="308" fill="#166B58" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">A</text>
+    <text x="78" y="410" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="14">Specialized workers</text>
+    <text x="78" y="348" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">5</text>
+    <text x="138" y="309" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="15">Agents</text>
+  </g>
+  <g>
+    <rect x="352" y="268" width="254" height="106" rx="10" fill="#F7FAF8" stroke="#DDE4DA"/>
+    <circle cx="384" cy="302" r="18" fill="#EAF1FF"/>
+    <text x="374" y="308" fill="#275D9C" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">T</text>
+    <text x="352" y="410" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="14">Enterprise connectors</text>
+    <text x="352" y="348" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">7</text>
+    <text x="412" y="309" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="15">Tools</text>
+  </g>
+  <g>
+    <rect x="626" y="268" width="254" height="106" rx="10" fill="#F7FAF8" stroke="#DDE4DA"/>
+    <circle cx="658" cy="302" r="18" fill="#FFF8E8"/>
+    <text x="648" y="308" fill="#875412" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">$</text>
+    <text x="626" y="410" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="14">Tracked per run</text>
+    <text x="626" y="348" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">$12.73</text>
+    <text x="686" y="309" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="15">Cost today</text>
+  </g>
+  <g>
+    <rect x="900" y="268" width="254" height="106" rx="10" fill="#F7FAF8" stroke="#DDE4DA"/>
+    <circle cx="932" cy="302" r="18" fill="#EEF7F3"/>
+    <text x="922" y="308" fill="#12624F" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Q</text>
+    <text x="900" y="410" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="14">Evaluation score</text>
+    <text x="900" y="348" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">88%</text>
+    <text x="960" y="309" fill="#66736C" font-family="Inter, Arial, sans-serif" font-size="15">Quality</text>
+  </g>
+
+  <rect x="78" y="428" width="420" height="184" rx="10" fill="#FFFFFF" stroke="#DDE4DA"/>
+  <text x="102" y="462" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Agent Control</text>
+  <rect x="102" y="484" width="166" height="42" rx="8" fill="#EEF7F3" stroke="#A8D8C7"/>
+  <text x="122" y="511" fill="#12624F" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Research Agent</text>
+  <rect x="280" y="484" width="152" height="42" rx="8" fill="#F2F7FF" stroke="#BDD3F3"/>
+  <text x="302" y="511" fill="#275D9C" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">SQL Agent</text>
+  <rect x="102" y="540" width="330" height="44" rx="8" fill="#FBFCFA" stroke="#D8DED6"/>
+  <text x="122" y="568" fill="#52615A" font-family="Inter, Arial, sans-serif" font-size="15">Coding, Email, Meeting agents ready</text>
+
+  <rect x="526" y="428" width="362" height="184" rx="10" fill="#FFFFFF" stroke="#DDE4DA"/>
+  <text x="550" y="462" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Run Workspace</text>
+  <rect x="550" y="484" width="314" height="52" rx="8" fill="#FBFCFA" stroke="#CFD7CF"/>
+  <text x="570" y="515" fill="#52615A" font-family="Inter, Arial, sans-serif" font-size="15">Draft a launch-risk workflow...</text>
+  <rect x="550" y="552" width="92" height="34" rx="8" fill="#EEF7F3" stroke="#17745F"/>
+  <text x="573" y="574" fill="#12624F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Notion</text>
+  <rect x="652" y="552" width="82" height="34" rx="8" fill="#EEF7F3" stroke="#17745F"/>
+  <text x="674" y="574" fill="#12624F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Slack</text>
+  <rect x="744" y="552" width="120" height="34" rx="8" fill="#18201D"/>
+  <text x="772" y="574" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">Run Agent</text>
+
+  <rect x="916" y="428" width="238" height="184" rx="10" fill="#FFFFFF" stroke="#DDE4DA"/>
+  <text x="940" y="462" fill="#18201D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Memory</text>
+  <rect x="940" y="488" width="184" height="38" rx="8" fill="#F7FAF8" stroke="#DDE4DA"/>
+  <text x="958" y="512" fill="#52615A" font-family="Inter, Arial, sans-serif" font-size="14">Escalation policy</text>
+  <rect x="940" y="540" width="184" height="38" rx="8" fill="#F7FAF8" stroke="#DDE4DA"/>
+  <text x="958" y="564" fill="#52615A" font-family="Inter, Arial, sans-serif" font-size="14">Launch context</text>
+</svg>

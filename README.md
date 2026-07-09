@@ -2,7 +2,14 @@
 
 A portfolio-grade full-stack AI engineering project that models how an enterprise could run specialized AI agents with tool access, memory, cost tracking, feedback, and a roadmap toward MCP, hybrid search, evaluations, and observability.
 
-Live portfolio site: `https://divyadhole.github.io/enterprise-ai-os/`
+[![Live Site](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-12624f?style=for-the-badge)](https://divyadhole.github.io/enterprise-ai-os/)
+[![Repo](https://img.shields.io/badge/GitHub-Public%20Repo-18201d?style=for-the-badge&logo=github)](https://github.com/Divyadhole/enterprise-ai-os)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?style=for-the-badge&logo=fastapi)](http://localhost:8000/docs)
+[![React](https://img.shields.io/badge/UI-React%20%2B%20TypeScript-275d9c?style=for-the-badge&logo=react)](frontend)
+
+![Enterprise AI Operating System dashboard preview](docs/assets/product-preview.svg)
+
+Live portfolio site: [https://divyadhole.github.io/enterprise-ai-os/](https://divyadhole.github.io/enterprise-ai-os/)
 
 Backend docs when running locally: `http://localhost:8000/docs`
 
@@ -28,6 +35,10 @@ The app is an enterprise AI control plane where a user can:
 - Run a task and view latency, cost, tool usage, and generated output.
 - Use the portfolio demo without a backend, while still supporting the FastAPI backend locally.
 
+## Visual Architecture
+
+![Enterprise AI Operating System architecture diagram](docs/assets/architecture.svg)
+
 ## Tech Stack
 
 | Layer | Tools |
@@ -38,20 +49,6 @@ The app is an enterprise AI control plane where a user can:
 | AI Roadmap | OpenAI, Anthropic, LangGraph, MCP, hybrid RAG |
 | DevOps | Docker Compose, Kubernetes starter manifests, GitHub Actions |
 | Quality | Pytest, TypeScript production build |
-
-## Architecture
-
-```mermaid
-flowchart LR
-  User["Enterprise user"] --> UI["React control plane"]
-  UI --> API["FastAPI backend"]
-  API --> Agents["Specialized agents"]
-  Agents --> Tools["Tool registry"]
-  Agents --> Memory["Memory layer"]
-  Agents --> Eval["Evaluation and feedback"]
-  Tools --> SaaS["Gmail, Slack, GitHub, Notion, Jira"]
-  Memory --> Stores["PostgreSQL, Redis, Qdrant"]
-```
 
 ## Current Features
 
