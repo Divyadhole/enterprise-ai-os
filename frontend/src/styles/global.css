@@ -15,6 +15,10 @@ body {
   min-width: 320px;
 }
 
+a {
+  color: #12624f;
+}
+
 button,
 textarea {
   font: inherit;
@@ -22,6 +26,29 @@ textarea {
 
 button {
   cursor: pointer;
+}
+
+button:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  transform: translateY(-140%);
+  background: #18201d;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 10px 12px;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
 }
 
 .app-shell {
@@ -44,6 +71,13 @@ button {
 .agent-card p {
   margin: 0;
   color: #66736c;
+}
+
+.hero-copy {
+  max-width: 780px;
+  margin-top: 16px !important;
+  font-size: 1.06rem;
+  line-height: 1.6;
 }
 
 .topbar h1 {
@@ -82,6 +116,32 @@ button {
   color: #7a3f12;
   border-radius: 8px;
   padding: 12px 14px;
+}
+
+.notice.neutral {
+  border-color: #b6c7db;
+  background: #f2f7ff;
+  color: #244d75;
+}
+
+.architecture-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.architecture-strip span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  border: 1px solid #d8ded6;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #ffffff;
+  color: #33423b;
+  font-size: 0.91rem;
 }
 
 .stats-grid,
@@ -172,8 +232,12 @@ button {
 }
 
 .agent-card:hover,
-.agent-card.selected {
+.agent-card.selected,
+.tool-chip.selected {
   border-color: #17745f;
+}
+
+.agent-card:hover {
   transform: translateY(-1px);
 }
 
@@ -246,11 +310,35 @@ textarea {
   background: #fbfcfa;
 }
 
+.field-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #24302b;
+  font-weight: 700;
+}
+
+.field-help {
+  margin: 8px 0 0;
+  color: #66736c;
+  font-size: 0.9rem;
+}
+
+.tool-picker {
+  border: 0;
+  margin: 14px 0;
+  padding: 0;
+}
+
+.tool-picker legend {
+  margin-bottom: 8px;
+  color: #24302b;
+  font-weight: 700;
+}
+
 .tool-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  margin: 14px 0;
 }
 
 .tool-chip {
@@ -260,11 +348,6 @@ textarea {
   background: #ffffff;
   text-align: left;
   min-height: 66px;
-}
-
-.tool-chip.selected {
-  border-color: #17745f;
-  background: #eefaf5;
 }
 
 .tool-chip:disabled {
@@ -359,6 +442,10 @@ textarea {
   .stats-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .architecture-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 640px) {
@@ -367,6 +454,7 @@ textarea {
   }
 
   .stats-grid,
+  .architecture-strip,
   .tool-grid,
   .memory-list,
   .run-result dl {

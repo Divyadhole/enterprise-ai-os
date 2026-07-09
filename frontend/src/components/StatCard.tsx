@@ -9,7 +9,7 @@ type StatCardProps = {
 
 export function StatCard({ label, value, detail, icon: Icon }: StatCardProps) {
   return (
-    <section className="stat-card">
+    <section className="stat-card" aria-label={`${label}: ${value}. ${detail}`}>
       <div className="stat-icon">
         <Icon size={18} />
       </div>

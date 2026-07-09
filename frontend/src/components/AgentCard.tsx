@@ -9,7 +9,12 @@ type AgentCardProps = {
 
 export function AgentCard({ agent, selected, onSelect }: AgentCardProps) {
   return (
-    <button className={`agent-card ${selected ? "selected" : ""}`} onClick={onSelect}>
+    <button
+      className={`agent-card ${selected ? "selected" : ""}`}
+      onClick={onSelect}
+      aria-pressed={selected}
+      aria-label={`Select ${agent.name}`}
+    >
       <div className="agent-card-header">
         <div>
           <h3>{agent.name}</h3>
