@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: enterprise-ai-os-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: enterprise-ai-os-backend
+  template:
+    metadata:
+      labels:
+        app: enterprise-ai-os-backend
+    spec:
+      containers:
+        - name: backend
+          image: enterprise-ai-os-backend:latest
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - secretRef:
+                name: enterprise-ai-os-secrets
