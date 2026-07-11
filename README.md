@@ -153,6 +153,3 @@ npm run build
 - Deploy backend API with managed PostgreSQL, Redis, and Qdrant.
 - Add environment-specific secrets, monitoring, and release checks.
 
-## Resume Bullet
-
-Built an enterprise AI agent platform with a React control plane and FastAPI backend for specialized agents, enterprise tool routing, memory, cost tracking, feedback capture, Dockerized services, CI, and a roadmap for MCP-compatible connectors, hybrid RAG, evaluations, and observability.
